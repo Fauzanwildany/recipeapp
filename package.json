@@ -9,7 +9,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint"
+    "lint": "expo lint",
+     "git-auto": "powershell -ExecutionPolicy Bypass -File ./git-auto.ps1"
   },
   "jest": {
     "preset": "jest-expo"
